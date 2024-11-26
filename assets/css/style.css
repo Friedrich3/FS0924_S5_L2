@@ -369,15 +369,15 @@ aside div p:last-child {
     font-size: 8rem;
   }
   .goCalendar{
-    position: fixed;
-    bottom: 995px;
+    bottom: 895px;
     z-index: 2;
   }
   .goSocialPage{
-    bottom: 1075px;
+    bottom: 990px;
     z-index: 2;
   }
 }
+
 
 @media screen and (min-width: 1200px) {
     main{
@@ -427,6 +427,14 @@ aside div{
 }
 .tag{
   font-size: 5.5rem;
+}
+.goCalendar{
+  bottom: 900px;
+  z-index: 2;
+}
+.goSocialPage{
+  bottom: 995px;
+  z-index: 2;
 }
 }
 
